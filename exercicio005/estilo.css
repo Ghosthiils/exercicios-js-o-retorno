@@ -1,0 +1,41 @@
+/* Seletor*/
+body {
+    /*propriedade : valor*/
+    color: #ecebeb;
+    background-color: #382911;
+    
+}
+
+/*
+cores originais:
+texto #e2dfe9
+fundo #9331ee
+
+
+cor dia
+texto #f8f7f8
+fundo #74c6f5
+
+cor tarde 
+texto #000000
+fundo #e9981e
+
+cor noite
+texto #ecebeb
+fundo #382911
+
+/*
+
+*/
+
+#foto {
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    border-top: 2px solid red ;
+    border-bottom: 2px solid blue;
+    border-right: 2px solid green;
+    border-left: 2px solid yellow;
+    /* estilos: solid, dashed, dotted, double */
+
+}

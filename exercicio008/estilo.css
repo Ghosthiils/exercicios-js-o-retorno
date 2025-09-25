@@ -1,0 +1,48 @@
+body {
+    background-color: cornflowerblue;
+    text-align: center;
+    font-family: 'Trebuchet MS'
+}
+
+h1 {
+    color: chartreuse;
+    text-transform: uppercase;
+    font-family: 'Courier New', black;
+    letter-spacing: 3px;
+}
+h1:hover {
+    color: blueviolet;
+    cursor: crosshair;
+}
+
+input {
+    border: 3px solid red;
+    border-radius: 3px;
+    margin: 5px;
+    font-size: 16px;
+}
+
+button {
+    border: 0;
+    background-color: rgb(255, 1, 1);
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 10px;
+    cursor: pointer;
+    
+}
+
+button:hover {
+    border: 2px solid tomato;
+    background-color: white;
+    color: tomato;
+}
+
+h3 {
+    background-color: yellow;
+}
+
+span {
+    color: red;
+}

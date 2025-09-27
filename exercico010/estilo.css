@@ -1,0 +1,19 @@
+body{
+    background-color: #f4f;
+    color: black;
+    text-align: center
+}
+ 
+#painel_formulario{
+    background-color: blueviolet;
+    margin: 40px;
+    padding: 10px;
+ 
+}
+ 
+#painel_resultado{
+    background-color: beige;
+    margin: 40px;
+    padding: 10px;
+    display: none;
+}

@@ -1,6 +1,6 @@
 .cartao {
-    text-align: justify;
-    background-color: rgb(61, 61, 61)!important;
+    text-align: end;
+    background-color: hsl(251, 61%, 37%)!important;
     transition: transform 0.5s ease;
 }
 .cartao:hover{

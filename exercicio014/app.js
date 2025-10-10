@@ -21,7 +21,7 @@ const time = [
     "Vitória"
   ];
 
-  const cidadesTimesSerieA2025 = [
+  const cidadesTimes = [
     "Belo Horizonte - MG",
     "Salvador - BA",
     "Rio de Janeiro - RJ",
@@ -45,7 +45,10 @@ const time = [
   ];
 
 function fnLista_time() {
-    document.getElementById("Lista_time").innerHTML =  ` <div class="col-6 border text-center">${time[0]} - ${cidadesTimes[0]}</div> `
+    for (let i = 0; i < time.length; i++ )
+    document.getElementById("Lista_time").innerHTML +=  ` <div class="col-6 border text-center">${time[i]} - ${cidadesTimes[i]}</div> `
     
 }
-  fnLista_time()
+  fnLista_time() 
+    
+  

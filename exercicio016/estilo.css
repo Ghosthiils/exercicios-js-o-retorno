@@ -1,0 +1,12 @@
+body {
+    background-color: #f8f9fa;
+  }
+  .card {
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  #resultado {
+    font-weight: bold;
+    color: green;
+    font-size: 1.3rem;
+  }

@@ -1,0 +1,14 @@
+body {
+    background: #f7f7fb;
+    font-family: Inter, system-ui, Arial, sans-serif;
+  }
+  
+  .card img.card-img-top {
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  .movie-card .card-body {
+    min-height: 180px;
+  }
+  
